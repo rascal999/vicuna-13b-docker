@@ -13,3 +13,5 @@ docker build . -t v13b
 ```
 docker run -p 5000:5000 -p 5005:5005 -p 7860:7860 --gpus all -it v13b
 ```
+
+Visit http://localhost:7860/
